@@ -275,7 +275,7 @@ a:focus {
 
 .slider_item-detail a {
   display: inline-block;
-  background-color: #000000;
+  background-color: #f9ff44;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -617,7 +617,7 @@ a:focus {
 }
 
 .info_section .form_container button {
-  background-color: #d9c406;
+  background-color: #000000;
   border: none;
   outline: none;
   color: #fff;
