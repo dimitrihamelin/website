@@ -290,9 +290,7 @@
           <div class="feature_row">
             <div class="feature_card">
               <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/f5.jpeg" alt="" />
-                </div>
+                <img src="images/f5.jpeg" alt="Dimitri Hamelin" />
               </div>
               <div class="feature_detail-box">
                 <h4>Dimitri Hamelin</h4>
@@ -301,9 +299,7 @@
             </div>
             <div class="feature_card">
               <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/f2.jpeg" alt="" />
-                </div>
+                <img src="images/f2.png" alt="Olivier" />
               </div>
               <div class="feature_detail-box">
                 <h4>Olivier</h4>
@@ -312,9 +308,7 @@
             </div>
             <div class="feature_card">
               <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/f3.png" alt="" />
-                </div>
+                <img src="images/f3.png" alt="Chaun14" />
               </div>
               <div class="feature_detail-box">
                 <h4>Chaun14</h4>
@@ -323,9 +317,7 @@
             </div>
             <div class="feature_card">
               <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/f4.png" alt="" />
-                </div>
+                <img src="images/f4.png" alt="Techone" />
               </div>
               <div class="feature_detail-box">
                 <h4>Techone</h4>
@@ -337,9 +329,7 @@
           <div class="feature_row">
             <div class="feature_card">
               <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/f3.png" alt="" />
-                </div>
+                <img src="images/f3.png" alt="Axel" />
               </div>
               <div class="feature_detail-box">
                 <h4>Axel</h4>
@@ -348,9 +338,7 @@
             </div>
             <div class="feature_card">
               <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/f3.png" alt="" />
-                </div>
+                <img src="images/f3.png" alt="Mathéo" />
               </div>
               <div class="feature_detail-box">
                 <h4>Mathéo</h4>
@@ -372,29 +360,22 @@
       .feature_card {
         flex: 1 1 100%; /* Par défaut, une carte par ligne */
         margin: 5px;
-        position: relative;
       }
     
       .feature_img-container {
         width: 100%;
-        height: 0;
-        padding-bottom: 100%; /* Pour créer un carré */
+        padding-bottom: 100%; /* Pour forcer un ratio carré */
         position: relative;
       }
     
-      .feature_img-box {
+      .feature_img-container img {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        overflow: hidden;
-      }
-    
-      .feature_img-box img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        object-fit: cover; /* Pour que l'image remplisse le conteneur tout en gardant son ratio */
+        border-radius: 50%;
       }
     
       /* Pour les écrans moyens */
