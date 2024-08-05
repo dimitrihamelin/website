@@ -275,19 +275,11 @@ a:focus {
 
 .slider_item-detail a {
   display: inline-block;
-  background-color: #000000; /* Set the background color to black */
-  color: #fff; /* Set the text color to white */
+  background-color: #fddd33;
+  color: #fff;
   font-size: 15px;
-  border-radius: 50%; /* Make it a circle */
-  padding: 10px 20px; /* Adjust the padding for a better circular shape */
-  text-align: center;
-  text-decoration: none;
-  border: 2px solid #000000; /* Optional: Add a black border */
-}
-
-.slider_item-detail a:hover {
-  background-color: #ffffff; /* Change the background color on hover */
-  color: #000000; /* Change the text color on hover */
+  border-radius: 10px;
+  padding: 10px 40px;
 }
 
 .slider_item-imgbox {
@@ -439,7 +431,7 @@ a:focus {
 
 .who_section .who_deail-box a {
   display: inline-block;
-  background-color: #000000;
+  background-color: #fddd33;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -545,7 +537,7 @@ a:focus {
 
 .contact_form-container button {
   border: none;
-  background-color: #000000;
+  background-color: #fddd33;
   color: #fff;
   padding: 12px 65px;
   font-size: 16px;
@@ -625,7 +617,7 @@ a:focus {
 }
 
 .info_section .form_container button {
-  background-color: #000000;
+  background-color: #d9c406;
   border: none;
   outline: none;
   color: #fff;
