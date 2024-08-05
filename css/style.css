@@ -537,7 +537,7 @@ a:focus {
 
 .contact_form-container button {
   border: none;
-  background-color: #fddd33;
+  background-color: #000000;
   color: #fff;
   padding: 12px 65px;
   font-size: 16px;
@@ -580,7 +580,7 @@ a:focus {
   margin-bottom: 12px;
   font-size: 22px;
   color: #fff;
-  border-bottom: 2px solid #feb543;
+  border-bottom: 2px solid #000000;
 }
 
 .info_section .social-box {
@@ -617,7 +617,7 @@ a:focus {
 }
 
 .info_section .form_container button {
-  background-color: #d9c406;
+  background-color: #000000;
   border: none;
   outline: none;
   color: #fff;
