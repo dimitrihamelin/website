@@ -321,9 +321,6 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
               </div>
             </div>
-          </div>
-          <!-- Ligne 2 -->
-          <div class="feature_row">
             <div class="feature_card">
               <div class="feature_img-container">
                 <div class="feature_img-box">
@@ -335,6 +332,9 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
               </div>
             </div>
+          </div>
+          <!-- Ligne 2 -->
+          <div class="feature_row">
             <div class="feature_card">
               <div class="feature_img-container">
                 <div class="feature_img-box">
@@ -370,15 +370,27 @@
       }
     
       .feature_card {
-        flex: 1 1 calc(33.333% - 10px); /* 3 cartes par ligne avec un espace de 10px */
+        flex: 1 1 100%; /* Par défaut, une carte par ligne */
         margin: 5px;
       }
     
-      /* Ajustements pour la deuxième ligne */
-      .feature_row:nth-child(2) .feature_card {
-        flex: 1 1 calc(50% - 10px); /* 2 cartes par ligne avec un espace de 10px */
+      /* Pour les écrans moyens */
+      @media (min-width: 768px) {
+        .feature_card {
+          flex: 1 1 calc(50% - 10px); /* 2 cartes par ligne avec un espace de 10px */
+        }
       }
-    </style>
+    
+      /* Pour les grands écrans */
+      @media (min-width: 1200px) {
+        .feature_row:nth-child(1) .feature_card {
+          flex: 1 1 calc(25% - 10px); /* 4 cartes par ligne avec un espace de 10px */
+        }
+        .feature_row:nth-child(2) .feature_card {
+          flex: 1 1 calc(50% - 10px); /* 2 cartes par ligne avec un espace de 10px */
+        }
+      }
+    </style>    
     
     <!-- end feature section -->
 
