@@ -431,7 +431,7 @@ a:focus {
 
 .who_section .who_deail-box a {
   display: inline-block;
-  background-color: #fddd33;
+  background-color: #000000;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -580,7 +580,7 @@ a:focus {
   margin-bottom: 12px;
   font-size: 22px;
   color: #fff;
-  border-bottom: 2px solid #feb543;
+  border-bottom: 2px solid #000000;
 }
 
 .info_section .social-box {
