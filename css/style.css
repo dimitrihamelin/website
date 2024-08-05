@@ -275,7 +275,7 @@ a:focus {
 
 .slider_item-detail a {
   display: inline-block;
-  background-color: #000000;
+  background-color: #fddd33;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -431,7 +431,7 @@ a:focus {
 
 .who_section .who_deail-box a {
   display: inline-block;
-  background-color: #000000;
+  background-color: #fddd33;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -537,7 +537,7 @@ a:focus {
 
 .contact_form-container button {
   border: none;
-  background-color: #000000;
+  background-color: #fddd33;
   color: #fff;
   padding: 12px 65px;
   font-size: 16px;
@@ -580,7 +580,7 @@ a:focus {
   margin-bottom: 12px;
   font-size: 22px;
   color: #fff;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #feb543;
 }
 
 .info_section .social-box {
@@ -617,7 +617,7 @@ a:focus {
 }
 
 .info_section .form_container button {
-  background-color: #000000;
+  background-color: #d9c406;
   border: none;
   outline: none;
   color: #fff;
@@ -642,10 +642,6 @@ a:focus {
   color: #292929;
   margin: 0;
   text-align: center;
-}
-
-.slider_item-detail a {
-  color: #000000;
 }
 
 .footer_section a {
