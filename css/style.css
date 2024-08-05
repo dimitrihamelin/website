@@ -644,6 +644,10 @@ a:focus {
   text-align: center;
 }
 
+.slider_item-detail a {
+  color: #000000;
+}
+
 .footer_section a {
   color: #292929;
 }
