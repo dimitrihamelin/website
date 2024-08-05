@@ -275,11 +275,19 @@ a:focus {
 
 .slider_item-detail a {
   display: inline-block;
-  background-color: #000000;
-  color: #fff;
+  background-color: #000000; /* Set the background color to black */
+  color: #fff; /* Set the text color to white */
   font-size: 15px;
-  border-radius: 10px;
-  padding: 10px 40px;
+  border-radius: 50%; /* Make it a circle */
+  padding: 10px 20px; /* Adjust the padding for a better circular shape */
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #000000; /* Optional: Add a black border */
+}
+
+.slider_item-detail a:hover {
+  background-color: #ffffff; /* Change the background color on hover */
+  color: #000000; /* Change the text color on hover */
 }
 
 .slider_item-imgbox {
