@@ -5015,7 +5015,6 @@ a.badge-success:focus, a.badge-success.focus {
 
 a.badge-info:hover, a.badge-info:focus {
   color: #fff;
-  background-color: #117a8b;
 }
 
 a.badge-info:focus, a.badge-info.focus {
@@ -5029,7 +5028,8 @@ a.badge-info:focus, a.badge-info.focus {
 }
 
 a.badge-warning:hover, a.badge-warning:focus {
-
+  color: #212529;
+  background-color: #d39e00;
 }
 
 a.badge-warning:focus, a.badge-warning.focus {
@@ -5069,12 +5069,10 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #343a40;
 }
 
 a.badge-dark:hover, a.badge-dark:focus {
   color: #fff;
-  background-color: #1d2124;
 }
 
 a.badge-dark:focus, a.badge-dark.focus {
