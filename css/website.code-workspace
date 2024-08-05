@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "website",
+			"path": "../../../../../../Documents/GitHub/website"
+		},
+		{
+			"name": "css",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../images"
+		},
+		{
+			"name": "js",
+			"path": "../js"
+		},
+		{
+			"name": "website",
+			"path": "../website"
+		}
+	],
+	"settings": {}
+}
