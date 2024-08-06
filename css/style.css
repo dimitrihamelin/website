@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
-  color: #1b161d;
+  color: #fdf9ff;
   background-color: #ffffff;
 }
 
@@ -275,7 +275,7 @@ a:focus {
 
 .slider_item-detail a {
   display: inline-block;
-  background-color: #000000;
+  background-color: #ffffff;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -315,7 +315,7 @@ a:focus {
 
 .slider_section .carousel-control-prev:hover,
 .slider_section .carousel-control-next:hover {
-  background-color: #292727;
+  background-color: #fff7f7;
   background-size: 12px;
 }
 
@@ -431,7 +431,7 @@ a:focus {
 
 .who_section .who_deail-box a {
   display: inline-block;
-  background-color: #000000;
+  background-color: #fffcfc;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -537,7 +537,7 @@ a:focus {
 
 .contact_form-container button {
   border: none;
-  background-color: #000000;
+  background-color: #ffffff;
   color: #fff;
   padding: 12px 65px;
   font-size: 16px;
@@ -580,7 +580,7 @@ a:focus {
   margin-bottom: 12px;
   font-size: 22px;
   color: #fff;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #ffffff;
 }
 
 .info_section .social-box {
@@ -617,7 +617,7 @@ a:focus {
 }
 
 .info_section .form_container button {
-  background-color: #000000;
+  background-color: #ffffff;
   border: none;
   outline: none;
   color: #fff;
@@ -645,7 +645,7 @@ a:focus {
 }
 
 .footer_section a {
-  color: #292929;
+  color: #fffcfc;
 }
 
 /* end footer section*/
