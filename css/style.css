@@ -371,7 +371,7 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 25px solid #d7daf4;
+  border: 25px solid #000000;
   margin: 0 auto 45px auto;
 }
 
@@ -457,7 +457,7 @@ a:focus {
 }
 
 .feature_img-container {
-  background-color: #1ba1b9;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
