@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "localhost:3306";
 $username = "mghsmpbb_contact"; // Remplacez par votre nom d'utilisateur MySQL
 $password = "locarodix"; // Remplacez par votre mot de passe MySQL
 $dbname = "mghsmpbb_contact";
