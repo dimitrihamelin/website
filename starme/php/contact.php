@@ -1,5 +1,5 @@
 <?php
-$servername = "194.87.217.191";
+$servername = "localhost";
 $username = "mghsmpbb"; // Remplacez par votre nom d'utilisateur MySQL
 $password = "T{R*eS0Q8Qp!a"; // Remplacez par votre mot de passe MySQL
 $dbname = "mghsmpbb_contact";
