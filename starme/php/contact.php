@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
+$servername = "194.87.217.191";
 $username = "mghsmpbb"; // Remplacez par votre nom d'utilisateur MySQL
 $password = "T{R*eS0Q8Qp!a"; // Remplacez par votre mot de passe MySQL
-$dbname = "cpses_mgxpd3wslo";
+$dbname = "mghsmpbb_contact";
 
 // Créer une connexion
 $conn = new mysqli($servername, $username, $password, $dbname);
